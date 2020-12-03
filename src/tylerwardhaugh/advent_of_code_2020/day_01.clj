@@ -1,4 +1,4 @@
-(ns tylerwardhaugh.advent-of-code-2020.day-1
+(ns tylerwardhaugh.advent-of-code-2020.day-01
   (:require [clojure.java.io :as io])
   (:require [clojure.math.combinatorics :as combo])
   (:require [net.cgrand.xforms.io :as xio]))
