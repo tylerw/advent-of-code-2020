@@ -20,7 +20,7 @@
            acc 0
            seen #{}]
       (cond
-        (= index cnt) {:completes acc}
+        (>= index cnt) {:completes acc}
         (seen index) {:halts acc}
         :else (let [[instr val] (instructions index)
                     new-seen (conj seen index)]
